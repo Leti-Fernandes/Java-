@@ -1,0 +1,25 @@
+public class Main {
+
+    public static void main(String[] args){
+
+       boolean fimDeSemana = false;
+       boolean fazendoSol = false;
+       boolean vamosAPraia = fimDeSemana && fazendoSol;
+
+
+        //tabela verdade (and) &&
+        //true && true = true
+        //true && false = false
+        //false && true = false
+        //false && false = false
+
+        //tabela verdade (or) ||
+        //true || true = true
+        //true || false = true
+        //false || true = true
+        //false || false = false
+
+        System.out.println(vamosAPraia);
+
+        String mensagem = fimDeSemana ? "É fim de semana" : "Não é fim de semnana";
+        System.out.println(mensagem);
